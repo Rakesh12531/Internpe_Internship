@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+FR+Trad:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+FR+Trad:wght@100..400&family=Playwrite+NO:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --bgcolor:#FACC15;
+}
+
+.home{
+    margin-top:0px;
+    width:100%;
+    height:730px;
+    background-image:url('images/slider.jpg');
+    background-size: cover;
+}
+
+.nav-bar{
+    display:flex;
+    justify-content:space-between;
+    font-size:20px;
+}
+
+#logo{
+    margin:10px;
+    margin-left:40px;
+}
+
+.cen-nav{
+    display:flex;
+    justify-content: space-between;
+    margin-top:25px;
+}
+
+.right-nav{
+    display:flex;
+    justify-content: space-between;
+    margin-top:20px;
+    margin-right:40px;
+}
+
+
+.cen-nav a{
+    margin:15px;
+    cursor:pointer;
+    transition:all 0.2s ease;
+}
+
+.cen-nav a:hover{
+    border-bottom:1px solid black;
+    color:white;
+    font-weight:bold;
+    transition:all 0.2s ease;
+}
+
+
+.right-nav i:not(#btn){
+    margin:15px;
+    padding:15px;
+    border-radius:50%;
+    background-color:white;
+    color:black;
+    box-shadow:0 0 5px 0 black;
+    transition:all 0.2s ease;
+}
+
+.right-nav i:not(#btn):hover{
+    color:white;
+    background-color:black;
+    box-shadow:0 0 20px 5px white;
+    transition:all 0.2s ease;
+}
+
+#btn{
+    padding:5px;
+}
+
+.right-nav button:hover{
+    color:white;
+    background-color:black;
+    box-shadow:0 0 20px 5px white;
+    transition:all 0.2s ease;
+}
+
+.right-nav button{
+    margin:5px;
+    height:50px;
+    width:100px;
+    margin-top:15px;
+    padding:5px;
+    border:none;
+    border-radius:20px;
+    text-align: center;
+    box-shadow:0 0 5px 0 black;
+    font-weight:bold;
+    transition:all 0.2s ease;
+}
+
+.about{
+    width:28%;
+    margin-top:5%;
+    margin-left:80px;
+}
+
+.about p{
+    font-size:20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.about span{
+    font-family: "Playwrite FR Trad", cursive;
+    font-size:50px;
+}
+
+.about button{
+    margin-top:50px;
+    padding:20px;
+    font-size:17px;
+    border:none;
+    border-radius:20px;
+    margin-left:150px;
+    box-shadow:0 0 5px 0 black;
+    transition:all 0.2s ease;
+}
+
+.about button:hover{
+    color:white;
+    background-color:black;
+    box-shadow:0 0 20px 5px white;
+    transition:all 0.2s ease;
+}
+
+.top-cat{
+    height:675px;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+#top-head{
+    margin-top:50px;
+    text-align:center;
+}
+
+.top{
+    height:80%;
+    width:30%;
+    background-color:var(--bgcolor);
+    box-shadow:0 0 50px 0 black;
+    overflow:hidden;
+    transition:all 0.2s ease;
+}
+
+.top:hover{
+    box-shadow:0 0 10px 0 black;
+    transition:all 0.2s ease;
+}
+
+.top img{
+    width:100%;
+    height:70%;
+    transition:all 0.2s ease;
+}
+
+.top img:hover{
+    transform:scale(1.1,1.1);
+    transition:all 0.2s ease;
+}
+
+.top-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-content h3{
+    font-size: 30px;
+    margin:10px;
+}
+
+.top-content p{
+    font-size: 20px;
+    margin-bottom:10px;
+}
+
+.top-content button{
+    padding:12px;
+    border:none;
+    border-radius:20px;
+    background-color: black;
+    color:white;
+    font-weight:bold;
+    box-shadow:0 0 5px 0 black;
+    transition:all 0.2s ease;
+}
+
+.top-content button:hover{
+    background-color:white;
+    color:black;
+    box-shadow:0 0 20px 5px white;
+    transition:all 0.2s ease;
+}
+
+.featured {
+    height: 2665px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+.fproducts{
+    height: 665px;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+}
+
+.fproduct{
+    width:30%;
+    height:92%;
+    margin:15px;
+    box-shadow:0 0 60px 0 black;
+    cursor:pointer;
+    overflow:hidden;
+    transition:all 0.2s ease;
+}
+
+.fproduct:hover{
+    box-shadow:0 0 10px 0 black;
+    transition:all 0.2s ease;
+}
+
+#fhead{
+    margin:20px;
+    text-align:center;
+}
+
+.fshead{
+    margin-left:40px;
+}
+
+.fproduct img{
+    width:100%;
+    height:70%;
+    transition:all 0.2s ease;
+}
+
+.fproduct img:hover{
+    transform:scale(1.1,1.1);
+    transition:all 0.2s ease;
+}
+
+.fcontent{
+    padding:20px;
+    background-color:var(--bgcolor);
+}
+
+.fcontent-head{
+    display:flex;
+    justify-content:space-between;
+}
+
+.fcontent-head h5{
+    font-size:22px;
+}
+
+.fcontent-head i{
+    font-size:20px;
+    height:20px;
+    width:20px;
+    padding:10px;
+    border-radius:50%;
+    text-align:center;
+    margin-top:-10px;
+    background-color: white;
+    box-shadow:0 0 10px 0 black;
+    transition:all 0.2s ease;
+}
+
+.fcontent-head i:hover{
+    background-color: red;
+    color:white;
+    box-shadow:0 0 20px 5px white;
+    transition:all 0.2s ease;
+}
+
+.fcontent-cen{
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+.fcontent button{
+    padding:12px;
+    margin-top:15px;
+    margin-left:35%;
+    border-radius:20px;
+    border:none;
+    background-color: black;
+    color:white;
+    font-weight:bold;
+    box-shadow:0 0 10px 0 black;
+    transition:all 0.2s ease;
+}
+
+.fcontent button:hover{
+    color:black;
+    background-color:white;
+    box-shadow:0 0 20px 0px white;
+    transition:all 0.2s ease;
+}
+
+.fcontent-cen h6{
+    font-size: 15px;
+}
+
+#pophead{
+    margin-top:200px;
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.popular-brands{
+    width:100%;
+    height:600px;
+    box-sizing: border-box;
+}
+
+.popular-logo1,.popular-logo2{
+    width:20%;
+    height:50%;
+}
+
+.pop-logo1,.pop-logo2{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.popular-logos img{
+    width:100%;
+    height:100%;
+}
+
+.value{
+    margin-top:60px;
+    height:500px;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.value div{
+    height:80%;
+    width:20%;
+    text-align: center;
+}
+
+.value div i{
+    padding:30px;
+    border-radius: 50%;
+    margin-top:50%;
+    font-size: 150px;
+    transition:all 0.3s ease;
+}
+
+.value div i:hover{
+    background-color:black;
+    color:white;
+    transition:all 0.3s ease;
+}
+
+.value div h2{
+    margin-top:50px;
+}
+
+.footer{
+    background-color:var(--bgcolor);
+    height:300px;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    padding:10px;
+}
+
+.copy{
+    height:30px;
+    width:100%;
+}
+
+:is(.footer1,.footer2,.footer3,.footer4) h2{
+    text-align:center;
+}
+
+.footer1 :is(h2,span,p,i){
+    padding:5px;
+}
+
+.footer1 .footer-icons{
+    text-align:center;
+    margin-top:8px;
+}
+
+.footer1 .footer-icons i{
+    padding:10px;
+    font-size:25px;
+    border:none;
+    border-radius:50%;
+    margin:5px;
+    background-color: black;
+    color:white;
+    font-weight:bold;
+    box-shadow: 0 0 10px 0 black;
+    transition:all 0.2s ease;
+}
+
+.footer1 .footer-icons i:hover{
+    background-color:white;
+    color:black;
+    box-shadow:0 0 10px 0px white;
+    transition:all 0.2s ease;
+}
+
+:is(.footer2,.footer3) :is(h2,p){
+    padding:5px;
+    transition:all 0.2s ease;
+}
+
+:is(.footer2,.footer3) p:hover{
+    cursor:pointer;
+    color:grey;
+    transition:all 0.2s ease;
+}
+
+.footer4{
+    display:flex;
+    flex-direction:column;
+}
+
+.footer4 :is(input,textarea,button){
+    margin:10px;
+    background-color: rgba(0,0,0,0.7);
+    color:white;
+    font-weight:bold;
+    padding:5px;
+    box-shadow:0 0 10px 0 black;
+}
+
+.footer4 input{
+    height:30px;
+    width:100%;
+    border:none;
+    border-radius:5px;
+}
+
+.footer4 textarea{
+    height:80px;
+    width:100%;
+    border:none;
+    border-radius:5px;
+}
+
+.footer4 button{
+    height:40px;
+    width:100%;
+    border:none;
+    border-radius:5px;
+    margin-left:15px;
+    transition:all 0.2s ease;
+}
+
+.footer4 button:hover{
+    background-color:white;
+    color:black;
+    transition:all 0.2s ease;
+}
+
+.copy{
+    margin-top:5px;
+    text-align:center;
+}
