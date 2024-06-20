@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc | Rakesh</title>
+    <link rel="icon" href="calc.webp">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1 id="logo">Calc</h1>
+    </div>
+    <div class="container">
+        <div class="display">
+            <input type="text" id="screen" readonly>
+        </div>
+        <div class="btn">
+        <button onclick="appendToDisplay('%')" class="b">%</button>
+        <button onclick="appendToDisplay('/')" class="b">/</button>
+        <button onclick="displayClear()" class="ac b">AC</button>
+        <button onclick="appendToDisplay('7')">7</button>
+        <button onclick="appendToDisplay('8')">8</button>
+        <button onclick="appendToDisplay('9')">9</button>
+        <button onclick="appendToDisplay('*')" class="b">X</button>
+        <button onclick="appendToDisplay('4')">4</button>
+        <button onclick="appendToDisplay('5')">5</button>
+        <button onclick="appendToDisplay('6')">6</button>
+        <button onclick="appendToDisplay('-')" class="b">-</button>
+        <button onclick="appendToDisplay('1')">1</button>
+        <button onclick="appendToDisplay('2')">2</button>
+        <button onclick="appendToDisplay('3')">3</button>
+        <button onclick="appendToDisplay('+')" class="b">+</button>
+        <button onclick="appendToDisplay('0')" class="zero">0</button>
+        <button onclick="appendToDisplay('.')">.</button>
+        <button onclick="calculate()" class="b">=</button>
+    </div>
+    </div>
+    <div class="footer">
+        <h5><i class="fa-solid fa-user"></i>Rakesh Raj S</h5>
+        <h5><i class="fa-brands fa-linkedin-in"></i>www.linkedin.com/in/rakesh531</h5>
+        <h5><i class="fa-solid fa-envelope"></i>rakeshraj12531@gmail.com</h5>
+    </div>
+
+    <script src="https://kit.fontawesome.com/313009947d.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
